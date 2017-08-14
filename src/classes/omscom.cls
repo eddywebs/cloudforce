@@ -5234,7 +5234,7 @@ public class omscom {
         private String[] field_order_type_info = new String[]{'CheckOutText','Weight','WeightType'};
     }
     public class OMSSoap {
-        public String endpoint_x = 'http://rhu042.veracore.com/pmomsws/oms.asmx';
+        public String endpoint_x ;//assign it from custom settings during instantiation = 'http://rhu042.veracore.com/pmomsws/oms.asmx';
         public Map<String,String> inputHttpHeaders_x;
         public Map<String,String> outputHttpHeaders_x;
         public String clientCertName_x;

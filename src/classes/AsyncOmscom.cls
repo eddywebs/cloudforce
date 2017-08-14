@@ -182,7 +182,7 @@ public class AsyncOmscom {
         }
     }
     public class AsyncOMSSoap {
-        public String endpoint_x = 'http://rhu042.veracore.com/pmomsws/oms.asmx';
+        public String endpoint_x;// assign it from custom seetting during instantiation = '';
         public Map<String,String> inputHttpHeaders_x;
         public String clientCertName_x;
         public Integer timeout_x;
